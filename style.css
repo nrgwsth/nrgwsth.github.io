@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|PT+Sans|Slabo+27px);
+
+body{
+	background-color: #BCD7E8;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #1273AD;
+}
+
+.main-heading{
+	padding: 10px;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'PT Sans', sans-serif;
+	color: #666;
+	font-size: 20px;
+}
+
+.main-desc{
+	font-family: 'Lato', sans-serif;
+	color: #777;
+	font-size: 14px;
+	text-align: center;
+}
+
+.normal-heading{
+	padding: 10px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	color: #666;
+	font-size: 18px;
+}
+.wrapper{
+	width: 60%;
+	margin: 20px auto;
+	background-color: #F7FCFB;
+	min-height: 1000px;
+}
+
+.header{
+	padding: 20px;
+}
+
+
+.cover-wrapper{
+	min-width: 200px;
+
+}
+
+.cover{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px solid #999;
+	margin: 10px auto;
+	background-image: url(./cover.jpg);
+	background-size: 100% 100%;
+}
+
+.intro{
+	width: 100%;
+	padding: 10px;
+}
+
+.divider{
+	width: 80%;
+	color: red;
+}
+
+.social{
+	width: 100%;
+	padding: 10px;
+}
+
+.social .social-heading{
+	padding: 10px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	color: #666;
+	font-size: 18px;
+}
+
+.social .social-description{
+	padding 10px;
+	text-align: center;
+}
+
+.ext-links{
+  width: 280px;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.ext-links div{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.ext-links div:hover{
+  border: 1px solid #aaa;
+}
+
+.ext-links a i{
+  padding: 10px;
+  color: #555;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.projects{
+	width: 100%;
+	padding: 10px;
+}
+.projects .projects-heading{
+	padding: 10px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	color: #666;
+	font-size: 18px;
+}
+
+.projects .project{
+	width: 90%;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #999;
+}
+
+.projects .project .project-heading{
+	color: #666;
+	font-family: 'Slabo 27px', serif;
+	margin:5px 0;
+	font-size: 1.2em;
+}
+
+.projects .project .project-desc{
+	font-size: 0.9em;
+	color: #333;
+}
