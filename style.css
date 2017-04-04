@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Lato|PT+Sans|Slabo+27px);
 
 body{
-	background-color: #BCD7E8;
+	background-color: #efefef;
 	box-sizing: border-box;
 }
 
 a{
 	text-decoration: none;
 	color: #1273AD;
+	transition: color 0.4s;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #129fff;
 }
 
 .main-heading{
@@ -34,11 +40,20 @@ a{
 	color: #666;
 	font-size: 18px;
 }
+/**
 .wrapper{
 	width: 60%;
 	margin: 20px auto;
 	background-color: #F7FCFB;
 	min-height: 1000px;
+}
+
+@media only screen and (max-width: 500px) {
+    .wrapper{
+        width: 90%;
+		margin: 20px auto;
+    }
+    
 }
 
 .header{
@@ -120,6 +135,8 @@ a{
   transition: all 0.5s;
 }
 
+/**
+
 .projects{
 	width: 100%;
 	padding: 10px;
@@ -150,4 +167,174 @@ a{
 .projects .project .project-desc{
 	font-size: 0.9em;
 	color: #333;
+}
+
+**/
+.wrapper{
+	background-color: #fff;
+	margin-top: 10px;
+	border: 1px solid #eee;
+}
+
+.header{
+	padding: 20px;
+}
+
+
+.cover-wrapper{
+	min-width: 200px;
+
+}
+
+.cover{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px solid #999;
+	margin: 10px auto;
+	background-image: url(./cover.jpg);
+	background-size: 100% 100%;
+}
+
+.intro{
+	width: 100%;
+	padding: 10px;
+}
+
+.divider{
+	height: 1px;
+	width: 85%;
+	background-color: blueviolet;
+	opacity: 0.4;
+	margin: 30px auto;
+}
+
+
+.social{
+	width: 100%;
+	padding: 10px;
+}
+
+.social .social-heading{
+	padding: 10px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	color: #666;
+	font-size: 18px;
+}
+
+.social .social-description{
+	padding 10px;
+	text-align: center;
+}
+
+.ext-links{
+  width: 280px;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.ext-links div{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.ext-links div:hover{
+  border: 1px solid #aaa;
+  background-color: #eee;
+}
+
+.ext-links a i{
+  padding: 10px;
+  color: #555;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.projects{
+
+}
+
+.projects-heading{
+	text-align: center;
+}
+
+.projects-wrapper{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.project{
+	position: relative;
+	border: 1px solid #eee;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.project-desc{
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	transition: all 0.7s;
+	bottom: 0;
+	opacity: 0;
+	background-color: rgba(247,16, 16, 0.65);
+	word-wrap: break-word;
+	color: #fff;
+}
+
+.project-desc span{
+	display: block;
+	padding: 10px;
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+
+.project-desc p{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	font-size: 0.9em;
+	color: #eee;
+}
+.project-desc:hover{
+	opacity: 1;
+}
+
+.shadow-1 {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.work-experience-wrapper{
+	margin-top: 30px;
+}
+
+.work-experience-item{
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.work-experience-heading{
+	color: #666;
+	font-family: 'Slabo 27px', serif;
+	margin:5px 0;
+	font-size: 1.2em;
+}
+
+.work-experience-desc{
+	font-size: 0.9em;
+	color: #444;
 }
